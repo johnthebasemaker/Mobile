@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useful Gadgets for Daily Drive</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Useful Gadgets for Daily Drive</h1>
+        <input type="text" id="search-bar" placeholder="Search Gadgets by name...">
+    </header>
+    
+
+    <!-- Category Section -->
+    <section id="categories">
+        <button class="category-btn" onclick="filterByCategory('travel')">Travel Friendly</button>
+        <button class="category-btn" onclick="filterByCategory('home')">Home Usage</button>
+        <button class="category-btn" onclick="filterByCategory('game')">Gaming Gadgets</button>
+        <button class="category-btn" onclick="filterByCategory('sound')">Audio Products</button>
+    </section>
+
+   
+    <!-- Gadgets Display Section -->
+    <section id="Gadgets">
+        <!-- Gadgets will be dynamically added here -->
+    </section>
+</body>
+</html>
